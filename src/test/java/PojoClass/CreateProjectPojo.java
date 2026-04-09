@@ -11,8 +11,8 @@ public class CreateProjectPojo {
 	public void create() {
 		
 		CreateProject obj = new CreateProject();
-		obj.setCreatedBy("Hemaraj");
-		obj.setProjectName("DFGHJKL");
+		obj.setCreatedBy("Sabari");
+		obj.setProjectName("pro_1");
 		obj.setStatus("Ongoing");
 		obj.setTeamSize(0);
 		
