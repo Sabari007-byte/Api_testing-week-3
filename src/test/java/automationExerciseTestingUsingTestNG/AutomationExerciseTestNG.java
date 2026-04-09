@@ -16,15 +16,15 @@ public class AutomationExerciseTestNG {
 
 	.pathParam("endpoint", "createAccount")
 
-	.formParam("name", "Hemaraj")
-	.formParam("email", "hemaraj@example.com")
+	.formParam("name", "Sabari")
+	.formParam("email", "sabari@example.com")
 	.formParam("password", "Password@123")
 	.formParam("title", "Mr")
 	.formParam("birth_date", "15")
 	.formParam("birth_month", "08")
 	.formParam("birth_year", "1998")
-	.formParam("firstname", "Hemaraj")
-	.formParam("lastname", "R")
+	.formParam("firstname", "Sabari")
+	.formParam("lastname", "P")
 	.formParam("company", "ABC Technologies")
 	.formParam("address1", "12, Anna Street")
 	.formParam("address2", "Near Bus Stand")
@@ -46,7 +46,7 @@ public class AutomationExerciseTestNG {
 	public void retrieve() {
 
 	RestAssured.given()
-	.queryParam("email", "hemaraj@example.com")
+	.queryParam("email", "sabari@example.com")
 
 	.when()
 	.get(baseURL + "/getUserDetailByEmail")
@@ -178,8 +178,8 @@ public class AutomationExerciseTestNG {
 		RestAssured.given()
 		.contentType(ContentType.JSON)
 		.body("{\r\n"
-				+ " \"email\": heamaraj@gmail.com,\r\n"
-				+ " \"message\": \"asfnlnaj\"\r\n"
+				+ " \"email\": sabari@gmail.com,\r\n"
+				+ " \"message\": \"zxcvbnm\"\r\n"
 				+ "}")
 		.when()
 		.post(baseURL+"/verifyLogin")
@@ -195,7 +195,7 @@ public class AutomationExerciseTestNG {
 		RestAssured.given()
 		.contentType(ContentType.JSON)
 		.body("{\r\n"
-				+ " \"email\": heamaraj@gmail.com,\r\n"
+				+ " \"email\": sabari@gmail.com,\r\n"
 				+ "}")
 		.when()
 		.post(baseURL+"/verifyLogin")
