@@ -15,8 +15,8 @@ given()
 .pathParam("projectId", "NH_PROJ_377")
 .contentType(ContentType.JSON)
 .body("{\n" +
-"  \"createdBy\": \"Kamala\",\n" +
-"  \"projectName\": \"Kannan\",\n" +
+"  \"createdBy\": \"sabari\",\n" +
+"  \"projectName\": \"sab_pro\",\n" +
 "  \"status\": \"Ongoing\",\n" +
 "  \"teamSize\": 0\n" +
 "}")
