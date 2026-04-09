@@ -15,7 +15,7 @@ public class CreateProject {
 		given()
 		.contentType(ContentType.JSON)
 		.body("{\n" +
-		"\"createdBy\":\"QWERTYUIOASDFGHJKZXCVBNM\",\n" +
+		"\"createdBy\":\"sabari\",\n" +
 		"\"projectName\":\"NH_PROJ_89001211\",\n" +
 		"\"status\":\"Ongoing\",\n" +
 		"\"teamSize\":0\n" +
